@@ -1,0 +1,12 @@
+body:
+  - type: input
+    attributes: { label: Package, placeholder: "@styloviz/core" }
+    validations: { required: true }
+  - type: input
+    attributes: { label: Package and Angular versions, placeholder: "1.0.0 / Angular 22" }
+    validations: { required: true }
+  - type: textarea
+    attributes: { label: Your question }
+    validations: { required: true }
+  - type: textarea
+    attributes: { label: What you have tried, description: Code or a StackBlitz link helps most. }
