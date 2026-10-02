@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question
+    url: https://github.com/styloviz/community/discussions/categories/q-a
+    about: Usage questions go to Discussions.
+  - name: Pro license support
+    url: https://support.styloviz.dev
+    about: Pro buyers use the private support repo from their purchase email.
