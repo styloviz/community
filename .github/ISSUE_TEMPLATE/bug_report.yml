@@ -1,0 +1,16 @@
+name: Bug report
+description: "Something in a free Styloviz package doesn't work as documented."
+labels: [bug]
+body:
+  - type: input
+    attributes: { label: Package and version, placeholder: "@styloviz/core 1.0.0" }
+    validations: { required: true }
+  - type: input
+    attributes: { label: Angular version, placeholder: "21 or 22" }
+    validations: { required: true }
+  - type: textarea
+    attributes: { label: "What happened, and what did you expect?" }
+    validations: { required: true }
+  - type: textarea
+    attributes: { label: Steps or a minimal reproduction }
+    validations: { required: true }
